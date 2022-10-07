@@ -33,8 +33,7 @@ use Cake\Event\EventInterface;
 use Cake\Http\Response;
 
 if (false) {
-	abstract class Controller
-	{
+	abstract class Controller {
 		public function startup(EventInterface \$event): ?Response {}
 		public function beforeFilter(EventInterface \$event): ?Response {}
 		public function beforeRender(EventInterface \$event): ?Response {}
@@ -43,8 +42,7 @@ if (false) {
 		public function beforeRedirect(EventInterface \$event, \$url, Response \$response) {}
 	}
 
-	abstract class Component
-	{
+	abstract class Component {
 		public function startup(EventInterface \$event): ?Response {}
 		public function beforeFilter(EventInterface \$event): ?Response {}
 		public function beforeRender(EventInterface \$event): ?Response {}
